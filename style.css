@@ -1,2 +1,38 @@
-
-
+body{
+    background-color: black;
+    padding-top: 50px;
+}
+.container{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+}
+.boxheader{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+}
+.left div{
+    padding: 0 5px;
+}
+.boxheader i{
+    font-size: 2.5rem;
+}
+.boxcenter img{
+    max-width: 600px;
+}
+.controls{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.controls i{
+    font-size: 1.5rem;
+}
+.controls .left i{
+    padding-right: 5px;
+}
