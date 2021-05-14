@@ -40,7 +40,7 @@ body{
 .description{
      display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 8px;
     font-size: larger;
 }
 
@@ -48,4 +48,5 @@ body{
     display: flex;
     justify-content: center;
     contain: content;
+    padding: 10px;
 }
